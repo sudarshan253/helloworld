@@ -16,6 +16,11 @@ public class Employee {
 	public void setEname(String ename) {
 		this.ename = ename;
 	}
+	public Employee(Integer eno, String ename) {
+		super();
+		this.eno = eno;
+		this.ename = ename;
+	}
 	
 	
 
